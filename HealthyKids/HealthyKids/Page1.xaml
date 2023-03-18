@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HealthyKids.Page1">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BorderColor="#F8F8FF">
+                <ImageButton x:Name="back"
+                             Scale="4"
+                             Source="bk.png"
+                             HeightRequest="10"
+                             WidthRequest="10"
+                             Margin="35, 0"
+                             Clicked="BackooClicked"
+                             BackgroundColor="#F8F8FF"
+                         HorizontalOptions="StartAndExpand"
+                         VerticalOptions="Start"
+                            />
+            </Frame>
+
+            <Frame Padding="120, 155" BorderColor="#F8F8FF">
+
+                <Image Source="pg1.pang" Scale="4.99" WidthRequest="85" HeightRequest="510" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
+
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

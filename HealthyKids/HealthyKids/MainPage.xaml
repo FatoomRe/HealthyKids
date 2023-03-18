@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HealthyKids.MainPage">
+
+    <StackLayout>
+        <Grid VerticalOptions="Start">
+            <Image Source="Picture2.pang"  Aspect="AspectFit"/>
+        </Grid>
+        <StackLayout>
+            <ImageButton 
+                Source="ddd.png"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Clicked="Eatclicked"
+                Aspect="AspectFit"
+                WidthRequest="230" HeightRequest="100"
+                BackgroundColor="#F8F8FF"
+                
+            />
+        </StackLayout>
+
+        
+           
+        
+        
+    </StackLayout>
+    
+
+</ContentPage>

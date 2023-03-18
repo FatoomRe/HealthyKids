@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HealthyKids.Secondpage">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <StackLayout>
+
+                <Frame BorderColor="#F8F8FF">
+                    <ImageButton x:Name="back"
+                             Scale="4"
+                             Source="bk.png"
+                             HeightRequest="10"
+                             WidthRequest="10"
+                             Margin="35, 0"
+                             Clicked="BackClicked"
+                             BackgroundColor="#F8F8FF"
+                         HorizontalOptions="StartAndExpand"
+                         VerticalOptions="Start"
+                            />
+                </Frame>
+
+
+
+                <Frame Padding="100, 100" BorderColor="#F8F8FF">
+                    <ImageButton 
+                             Scale="2.70"
+                             Source="DRK.png"
+                             HeightRequest="100"
+                             WidthRequest="100"
+                             Clicked="DRKClicked"
+                             BackgroundColor="#F8F8FF"
+                         HorizontalOptions="Center"
+                    VerticalOptions="End"
+                         
+                            />
+                </Frame>
+
+
+                <Frame Padding="100, 100" BorderColor="#F8F8FF">
+                    <ImageButton 
+                             Scale="2.70"
+                             Source="MLS.png"
+                             HeightRequest="100"
+                             WidthRequest="100"
+                             Clicked="MLSClicked"
+                             BackgroundColor="#F8F8FF"
+                         HorizontalOptions="Center"
+                         VerticalOptions="End"
+                            />
+                </Frame>
+
+
+            </StackLayout>
+            
+            </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
